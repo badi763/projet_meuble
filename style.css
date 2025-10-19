@@ -344,3 +344,19 @@
 .btn-cart:active {
       transform: translateY(0);
 }
+/* ===== Petit logo ===== */
+.brand {
+      display: block;
+      text-decoration: none;
+}
+
+.logo {
+      height: 35px;  /* Petit logo */
+      width: auto;
+      display: block;
+}
+
+.logo:hover {
+      opacity: 0.8;
+      transition: opacity 0.3s ease;
+}
